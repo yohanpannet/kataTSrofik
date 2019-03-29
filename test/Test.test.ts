@@ -5,6 +5,6 @@ import assert from 'assert';
 describe('Test', () => {
   
   it('return true when asked to', () => {
-    assert.equal(true, Test.returnTrue());
+    assert.equal(Test.returnTrue(), true);
   });
 });
