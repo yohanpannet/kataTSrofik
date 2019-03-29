@@ -4,7 +4,7 @@ import assert from 'assert';
 
 describe('Test', () => {
   
-  it('retrun true when asked to', () => {
+  it('return true when asked to', () => {
     assert.equal(Test.returnTrue(), true);
   });
 });
